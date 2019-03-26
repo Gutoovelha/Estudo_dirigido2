@@ -1,1 +1,2 @@
-# Estudo_dirigido2
+# Segunda atividade de programação
+Augusto Mafra Carvalho 2info3
