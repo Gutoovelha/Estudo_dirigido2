@@ -1,10 +1,10 @@
 <?php
 
 Print "\nColoque o primeiro valor:\n";
-$numero1=fgets(STDIN);
+$numero1=(int)fgets(STDIN);
 
 Print "\nColoque o segundo valor:\n";
-$numero2=fgets(STDIN);
+$numero2=(int)fgets(STDIN);
 
 
 if ($numero1 > $numero2){
