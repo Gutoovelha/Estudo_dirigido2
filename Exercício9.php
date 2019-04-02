@@ -1,20 +1,20 @@
 <?php
 
     print"Digite o primeiro valor: \n";
-    $valor1 = (int) fgets (STDIN);
+    $n1 = (int) fgets (STDIN);
 
     print"Digite o segundo valor: \n";
-    $valor2 = (int) fgets (STDIN);
+    $n2 = (int) fgets (STDIN);
 
     print"Digite o terceiro valor: \n";
-    $valor3 = (int) fgets (STDIN);
+    $n3 = (int) fgets (STDIN);
 
-    if ($valor1 < $valor2 and $valor2 < $valor3){
-        print "A ordem crescente é: $valor1 , $valor2 , $valor3\n";
+    if ($n1 < $n2 and $n2 < $n3){
+        print "A ordem crescente é: $n1 , $n2 , $n3\n";
     }
-    elseif ($valor2 < $valor1 and $valor1 < $valor3){
-        print "A ordem crescente é: $valor2 , $valor1 , $valor3\n";
+    elseif ($n2 < $n1 and $n1 < $n3){
+        print "A ordem crescente é: $n2 , $n1 , $n3\n";
     }
-    elseif ($valor3 < $valor2 and $valor2 < $valor1) {
-        print "A ordem crescente é: $valor3 , $valor2 , $valor1\n";
+    elseif ($n3 < $n2 and $n2 < $n1) {
+        print "A ordem crescente é: $n3 , $n2 , $n1\n";
     }
