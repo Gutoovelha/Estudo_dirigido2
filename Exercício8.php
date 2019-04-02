@@ -1,20 +1,23 @@
 <?php
 
-    print"Digite o preço do primeiro produto: \n";
-    $valor1 = (int) fgets (STDIN);
+    print "Digite o preço do primeiro produto:\n";
+    $n1 = fgets(STDIN);
 
-    print"Digite o preço do segundo produto: \n";
-    $valor2 = (int) fgets (STDIN);
+    print "Digite o preço do segundo produto:\n";
+    $n2 = fgets(STDIN);
 
-    print"Digite o preço do terceiro produto: \n";
-    $valor3 = (int) fgets (STDIN);
+    print "Digite o preço do terceiro produto:\n";
+    $n3 = fgets(STDIN);
 
-    if ($valor1 < $valor2 and $valor2 < $valor3){
-        print "O primeiro produto está mais em conta\n";
+    if($n1<$n2 and $n1<$n3 ){
+        print "Você deve comprar o primeiro produto.\n";       
+
     }
-    elseif ($valor2 < $valor1 and $valor1 > $valor3){
-        print "O segundo produto está mais em conta\n";
+
+    if($n2<$n1 and $n2<$n3) { 
+        print "Você deve comprar o segundo produto.\n";    
     }
-    elseif ($valor3 < $valor2 and $valor2 < $valor1) {
-        print "O terceiro produto está mais em conta\n";
+
+    if($n3<$n2 and $n3<$n1) { 
+        print "Você deve comprar o terceiro produto.\n";    
     }
