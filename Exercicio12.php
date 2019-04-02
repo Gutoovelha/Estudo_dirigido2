@@ -5,7 +5,7 @@
     while ($contador <= 100 ){
         print $contador;
         print "\n";
-        $contador ++; #soma mais um a variavel
+        $contador ++; 
         sleep (1);
     }
 
