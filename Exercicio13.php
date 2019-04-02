@@ -9,4 +9,4 @@
         sleep (1);
     }
 
-    print "saiu da repetição";
+    print "Acabou a repetição";
