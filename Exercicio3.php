@@ -1,12 +1,11 @@
 <?php
+Print "Digite M para masculino ou digite F para feminino\n";
+$sexo=fgetc(STDIN);
 
-Print "\nDigite M para masculino ou digite F para feminino\n";
-$sexo=fgets(STDIN);
-
-if ($sexo=M){
-    Print "Masculino";
+if ($sexo=="M"){
+    Print "Masculino\n";
 }
-else
-if ($sexo=F){
-    Print "Feminino";
+
+elseif ($sexo=="F"){
+    Print "Feminino\n";
 }
