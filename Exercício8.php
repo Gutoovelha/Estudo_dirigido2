@@ -1,13 +1,13 @@
 <?php
 
     print "Digite o preço do primeiro produto:\n";
-    $numero1 = fgets(STDIN);
+    $numero1 =(float) fgets(STDIN);
 
     print "Digite o preço do segundo produto:\n";
-    $numero2 = fgets(STDIN);
+    $numero2 =(float) fgets(STDIN);
 
     print "Digite o preço do terceiro produto:\n";
-    $numero3 = fgets(STDIN);
+    $numero3 =(float) fgets(STDIN);
 
     if($numero1<$numero2 and $numero1<$numero3 ){
         print "Você deve comprar o primeiro produto.\n";       
